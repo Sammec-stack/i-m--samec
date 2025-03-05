@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Расписание занятий</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f0f4f3;
+      margin: 20px;
+      color: #333;
+    }
+    h1 {
+      text-align: center;
+      color: #004d40;
+      font-size: 2.5em;
+      margin-bottom: 20px;
+      text-transform: uppercase;
+    }
+    table {
+      width: 90%;
+      margin: 0 auto;
+      border-collapse: collapse;
+      background-color: #e8f5e9;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    }
+    th, td {
+      padding: 15px;
+      text-align: center;
+      font-size: 1.1em;
+      border: 1px solid #004d40;
+    }
+    th {
+      background-color: #004d40;
+      color: white;
+      text-transform: uppercase;
+      font-weight: bold;
+    }
+    td {
+      color: #004d40;
+    }
+    tr:nth-child(even) {
+      background-color: #c8e6c9;
+    }
+    tr:hover {
+      background-color: #a5d6a7;
+      transition: background-color 0.3s ease;
+    }
+    .break {
+      background-color: #004d40;
+      color: white;
+      font-style: italic;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+    .footer {
+      text-align: center;
+      margin-top: 20px;
+      font-size: 0.9em;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <h1>Расписание занятий</h1>
+  <table>
+    <thead>
+      <tr>
+        <th>День недели</th>
+        <th>Время</th>
+        <th>Предмет</th>
+        <th>Аудитория</th>
+        <th>Преподаватель</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Понедельник</td>
+        <td>08:00 - 09:30</td>
+        <td>Математика</td>
+        <td>101</td>
+        <td>Иванов И.И.</td>
+      </tr>
+      <tr>
+        <td>урок 1</td>
+        <td>08:00 - 09:30</td>
+        <td>Математика</td>
+        <td>101</td>
+        <td>Иванов И.И.</td>
+      </tr>
+      <tr>
+        <td>урок 2</td>
+        <td>08:00 - 09:30</td>
+        <td>Математика</td>
+        <td>101</td>
+        <td>Иванов И.И.</td>
+      </tr>
+      <tr>
+        <td>урок 3</td>
+        <td>08:00 - 09:30</td>
+        <td>Математика</td>
+        <td>101</td>
+        <td>Иванов И.И.</td>
+      </tr>
+      <tr>
+        <td>урок 4</td>
+        <td>09:40 - 11:10</td>
+        <td>Русский язык</td>
+        <td>102</td>
+        <td>Петрова М.А.</td>
+      </tr>
+      <tr class="break">
+        <td colspan="5">Обеденный перерыв</td>
+      </tr>
+      <tr>
+        <td>Понедельник</td>
+        <td>12:00 - 13:30</td>
+        <td>Физика</td>
+        <td>202</td>
+        <td>Сидоров А.В.</td>
+      </tr>
+      <tr>
+        <td>Вторник</td>
+        <td>08:00 - 09:30</td>
+        <td>История</td>
+        <td>103</td>
+        <td>Михайлова Л.К.</td>
+      </tr>
+      <tr>
+        <td>Вторник</td>
+        <td>09:40 - 11:10</td>
+        <td>Информатика</td>
+        <td>201</td>
+        <td>Кузнецов П.Г.</td>
+      </tr>
+      <tr class="break">
+        <td colspan="5">Обеденный перерыв</td>
+      </tr>
+      <tr>
+        <td>Вторник</td>
+        <td>12:00 - 13:30</td>
+        <td>Английский язык</td>
+        <td>301</td>
+        <td>Смирнова О.А.</td>
+      </tr>
+    </tbody>
+  </table>
+  <div class="footer">
+    Расписание составлено на 2025 год.
+  </div>
+</body>
+</html>
